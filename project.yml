@@ -1,0 +1,37 @@
+#### General information about the project    ####
+#### All this will be visible on DataCamp.com ####
+title          : "Classification Trip to the Animal Kingdom" # Instructor fills out
+description    : > # Instructor fills out
+  Use Python scikit-learn library to build machine learning models for animal classification. 
+long_description: | # Instructor fills out
+  *Note: this project is [soft launched](https://en.wikipedia.org/wiki/Soft_launch), which means you may experience bugs. Please click "Report an Issue" in the top-right corner of the project interface to provide feedback.*
+  
+  In accordance with the Linnaeus method, taxonomists classify the animals, as they do the plants, on the basis of shared physical characteristics. In this project, you are going to learn how to apply Tree-Based Machine Learning Models to classify animals based on various traits. If you are an animal lover and would like to improve you machine learning skills by doing, then this is the project for you!
+  
+  To complete this project you should be comfortable with supervised learning in Python and machine learning tree-based models. Check out our <a href="https://www.datacamp.com/courses/supervised-learning-with-scikit-learn">Supervised Learning with scikit-learn</a> and <a href="https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python">Machine Learning with Tree-Based Models in Python</a> courses to get familiar or brush up on your skills.
+  
+  The dataset used in this project is <a href="https://www.kaggle.com/uciml/zoo-animal-classification">Kaggle's Zoo Animal Classification Dataset</a>. This dataset describes 101 animals from a zoo. It contains 16 variables with various traits to describe animals of 7 different class types: Mammal, Bird, Reptile, Fish, Amphibian, Bug and Invertebrate.
+
+
+time_needed: "45 minutes" # "30/45/60 minutes". # DataCamp fills out
+
+
+#### Metadata regarding course requirements and topics ####
+#### This will be updated by your DataCamp contact     ####
+technology: 2 # 1 == R, 2 == python, 3 == sql # Automatically set
+# IDs for courses that are prerequisites
+# See https://mb.datacamp.com/question/126 for IDs
+prerequisites: # DataCamp fills out
+  - 799
+difficulty_level: 2 # 1 == easy, 2 == medium, 3 == hard # DataCamp fills outs
+# IDs for the topics the project covers
+# See here for topic IDs: http://bit.ly/project-topic-ids
+topics:
+  - 12
+
+#### Technical settings for the docker image running the project ####
+#### This will be updated by your DataCamp contact.              ####
+language       : python # One of r, python or sql
+# The name of the docker image used to run the course
+from           : 'python-notebooks-prod:v1.2.0'
+runtime_config : default # default/heavy . Set to heavy for more resource intensive projects.
